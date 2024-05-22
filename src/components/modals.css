@@ -1,0 +1,47 @@
+.input-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+  color: rgba(176, 177, 182, 1);
+  border-color: rgba(54, 55, 56, 1);
+  border-width: 1px;
+  border-radius: 0.5rem;
+}
+
+.input-label {
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  background-color: rgba(35, 35, 36, 1);
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.input-element {
+  background-color: rgba(35, 35, 36, 1);
+  padding: 1rem;
+  border-radius: .375rem;
+}
+
+.max-modal-w{
+    max-width: 58rem;
+}
+
+.team-modal-w{
+  max-width: 650px;
+}
+
+.modal-label{
+  color:rgba(225, 227, 230, 1);
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+}
+
+.modal-btn{
+    background-color: rgba(0, 71, 187, 1);
+    color: rgba(225, 227, 230, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}

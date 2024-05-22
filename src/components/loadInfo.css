@@ -1,0 +1,39 @@
+.load-level{
+    color: rgba(215, 117, 86, 1);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.load-btn{
+    background-color: rgba(0, 71, 187, 1);
+    color: rgba(225, 227, 230, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.regular-gray{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(118, 120, 122, 1);
+}
+
+.regular-white{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(225, 227, 230, 1);
+}
+
+.regular-dates{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(176, 177, 182, 1);
+}
+
+.pic-border{
+    border-color: rgba(35, 35, 36, 1);
+}

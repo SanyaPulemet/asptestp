@@ -1,0 +1,57 @@
+.name-container h1 {
+    line-height: 1.2;
+}
+
+.tab-buttons .tab-button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+}
+
+.tab-buttons .tab-button.active {
+    background-color: #007bff;
+}
+
+.info-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(225, 227, 230, 1);
+}
+
+.gray-info-text{
+    color: rgba(118, 120, 122, 1);
+}
+
+@media (min-width: 769px) {
+    .full-name{
+        color: rgba(225, 227, 230, 1);
+        font-size: 48px;
+        line-height: 56px;
+        margin-left: 48px;
+    }
+
+    .info-text{
+        margin-left: 48px;
+    }
+}
+
+@media (max-width: 769px) {
+    .full-name{
+        color: rgba(225, 227, 230, 1);
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .info-text{
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+.card-height{
+    height: fit-content;
+}

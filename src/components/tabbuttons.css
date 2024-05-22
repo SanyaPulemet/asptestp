@@ -1,0 +1,55 @@
+.my-tab-buttons {
+  display: flex;
+  margin-left: 16px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.my-tab-button {
+  background: transparent;
+  border: none;
+  color: rgba(176, 177, 182, 1);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.my-tab-button:hover,
+.my-tab-button.my-active {
+  color: rgba(225, 227, 230, 1);
+}
+
+.my-tab-button::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(54, 55, 56, 1); /* Серое подчеркивание по умолчанию */
+  position: absolute;
+  bottom: -2px; 
+  left: 0;
+}
+
+.my-tab-button::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: rgba(0, 71, 187, 1);
+    position: absolute;
+    bottom: -2px; 
+    left: 0px;
+    transform-origin: bottom left; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+.my-tab-button.my-active::after,
+.my-tab-button:hover::after {
+  transform: scaleX(1);
+}
